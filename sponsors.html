@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN CASH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg'); /* Фоновое изображение */
+            background-size: cover; /* Масштабирование фонового изображения */
+            background-repeat: no-repeat; /* Запрет повтора фонового изображения */
+            cursor: url('custom-cursor.png'), auto; /* Заменяем курсор на пользовательский */
+        }
+        header {
+            display: flex;
+            flex-direction: column; /* Устанавливаем направление flex-контейнера на колонку */
+            justify-content: center; /* Выравнивание по центру по вертикали */
+            align-items: center; /* Выравнивание по центру по горизонтали */
+            background-color: rgba(51, 51, 51, 0.7); /* Полупрозрачный цвет фона шапки */
+            color: #fff;
+            padding: 20px;
+            height: 5vh; /* Задаем высоту блока header */
+        }
+        header h1 {
+            margin: 0;
+            padding: 20px; /* Добавляем отступы вокруг текста заголовка */
+            text-align: center; /* Выравниваем текст по центру */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.7); /* Полупрозрачный цвет фона навигации */
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px); /* Размытие фона */
+            background-color: rgba(255, 255, 255, 0); /* Полностью прозрачный фон контента */
+            border-radius: 10px; /* Закругление углов блока контента */
+            color: #fff; /* Цвет текста белый */
+            margin: 20px; /* Отступ от других элементов */
+        }
+		
+		/* Медиа-запросы для мобильных устройств */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-size: cover; /* Изменение размера фонового изображения */
+				background-position: center top; /* Выравнивание изображения по центру по горизо
+            }
+            header {
+                padding: 10px; /* Уменьшение отступов в шапке */
+            }
+            header h1 {
+                font-size: 24px; /* Уменьшение размера текста в заголовке */
+            }
+            nav {
+                flex-direction: column; /* Изменение направления навигации */
+            }
+            nav a {
+                padding: 10px; /* Уменьшение отступов у ссылок */
+            }
+            .content {
+                padding: 10px; /* Уменьшение отступов в контенте */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CLEAN CASH</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="state.html">Статьи</a>
+        <a href="aboutus.html">О нас</a>
+        <a href="sponsors.html">Спонсоры</a>
+        
+    </nav>
+    
+    <div class="content">
+        <h1>Наш главный спонсор и партнёр:</h1>
+		<p>В этом боте продажа лучших схем, курсов и много интересной и позновательной ифнормации только для наших фолловеров</p>
+		<p><a href="http://t.me/mutimcashbot?start=5223937643">TELEGRAM</a></p>
+		
+    </div>
+    
+    
+
+</body>
+</html>
